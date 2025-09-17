@@ -1,6 +1,6 @@
 # Rate Limiter em Go com Redis
 
-Este projeto implementa um rate limiter em Go que limita o número de requisições por IP ou token de acesso, usando Redis como mecanismo de armazenamento.
+Este projeto para avaliação implementa rate limiter em Go language que limita o número de requisições por IP ou token de acesso, usando Redis como mecanismo de armazenamento (facilita a implementação das limitações e testes).
 
 ## Funcionalidades
 
@@ -14,9 +14,9 @@ Este projeto implementa um rate limiter em Go que limita o número de requisiç�
 
 ## Requisitos
 
-- Linguagem Go e pacote de desenvolvimento
-- Docker e Docker Compose
-- Redis 6+
+- Linguagem Go e VS Code ou outas IDE's de desenvolvimento
+- Docker c/ WSL 2
+- Redis
 
 ## Configuração
 
@@ -34,3 +34,8 @@ REDIS_HOST=redis                       # Host do Redis
 REDIS_PORT=6379                        # Porta do Redis
 REDIS_PASSWORD=                        # Senha do Redis (opcional)
 REDIS_DB=0                             # Banco de dados Redis
+```
+
+## Script utilizado no Redis
+
+Foi utilizada a linguagem Lua no script desenvolvido para a lógica no Redis.
