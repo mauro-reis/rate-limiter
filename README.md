@@ -44,6 +44,11 @@ Foi utilizada a linguagem Lua no script desenvolvido para a lógica no Redis.
 
 Foram criados casos de testes para realmente validar as funcionalidades quanto as limitações parametrizadas.
 
+## Parametrizações
+
+Na raiz do projeto existe o arquivo ".env" contendo a variáveis de ambiente para execução da aplicação.
+No arquivo de variáveis de ambiente, já estão as parametrizações pré-configuradas.
+
 ## Execução da aplicação
 
 1) Executar os seguintes comandos abaixo para subir a aplicação:
