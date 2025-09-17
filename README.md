@@ -39,3 +39,21 @@ REDIS_DB=0                             # Banco de dados Redis
 ## Script utilizado no Redis
 
 Foi utilizada a linguagem Lua no script desenvolvido para a lógica no Redis.
+
+## Testes
+
+Foram criados casos de testes para realmente validar as funcionalidades quanto as limitações parametrizadas.
+
+## Execução da aplicação
+
+1) Executar os seguintes comandos abaixo para subir a aplicação:
+
+go mod download
+go mod verify
+go mod tidy
+
+2) Ligue o docker em sua máquina e execute o comando abaixo a partir da raiz do projeto:
+
+docker compose up
+
+_Obs.: Os arquivos "Dockerfile" e "docker-compose.yml" já estão configurados tanto para a aplicação, quanto para o Redis._
