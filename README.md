@@ -2,6 +2,8 @@
 
 Este projeto para avaliação implementa rate limiter em Go language que limita o número de requisições por IP ou token de acesso, usando Redis como mecanismo de armazenamento (facilita a implementação das limitações e testes).
 
+O projeto em si demonstra não apenas uma mera configuração limitações de conexões realizadas no endpoint, mas também a assertividade de segurança e alto tráfego numa determinada aplicação web, o que é essencial para qualquer grande aplicação de uma empresa.
+
 ## Funcionalidades
 
 - Middleware para servidores web Go (Gin)
